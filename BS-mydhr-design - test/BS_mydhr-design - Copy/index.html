@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-MyDHR</title>
+
+    <!-- BS Arabic 'RTL' -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+    <!-- BS CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <!-- CSS file -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <!-- Library of BS HTML & 'icons file' we use .. -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<body style="background:rgba(0,0,0,.1)">
+  
+  
+  <br><br><br>
+  <!-- Start navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4 mx-4 rounded-3 px-4 fixed-top">
+        <div class="container-fluid">
+
+            <!-- Start Brand 'Logo' -->
+                <a class="navbar-brand" href="#">
+                  <img src="assets/imgs/butterfly-01.png" alt="" width="30" height="24">
+                </a>
+            <!-- End Brand 'Logo' -->
+
+          <a class="navbar-brand" href="#">سجلي الصحي | </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b class="ml-2">الرئيسية</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b class="ml-2"> مـن نحـــن</b> </a>
+              </li>
+
+              <!-- Change Position from navbar to ..-->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>انضم الينــا</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">اشترك كمستخدم</a></li>
+                  <li><a class="dropdown-item" href="#">دخول كمستخدم</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">بروفايل الطبيب</a></li>
+                  <li><a class="dropdown-item" href="#">بروفايل المستخدم</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">دخول الطبيب</a></li>
+                  <li><a class="dropdown-item" href="#">اشتراك الطبيب</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">طلباتي</a></li>
+                  <li><a class="dropdown-item" href="#">خروج </a></li>
+                </ul>
+              </li> -->
+              <!-- Change Position -->
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b class="ml-2">الدعـــــم </b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"> <b> البحـث المتقـدم</b></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"> <b>سياسـة الخصوصية</b></a></li>
+                  <li><a class="dropdown-item" href="#"><b>شروط الخدمة</b> </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><b>التوثيق </b></a></li>
+                  <li><a class="dropdown-item" href="#"><b>التدريب </b></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"> <b>  المقترحــات</b></a></li>
+                  <li><a class="dropdown-item" href="#"><b>الاسئلة المتكررة </b></a></li>
+
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ml-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b class="ml-2"> الخدمــــات </b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><b>سجلي الصحي </b></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><b>الســـــلة </b></a></li>
+                  <li><a class="dropdown-item" href="#"><b> طلباتــي </b></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <!-- <li><a class="dropdown-item" href="#"><b>تحليل بيانات </b></a></li>
+                  <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#"><b>لوحــة التحكــم </b></a></li>
+                  <li><a class="dropdown-item" href="#"><b>احصائيـــــات </b></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><b>اسعاف وطواريء </b></a></li>
+
+
+
+                </ul>
+              </li>
+              <!-- Versions -->
+              <li class="nav-item ">
+                
+                <a class="nav-link mx-5" href="#" tabindex="-1" aria-disabled="true"><b><span class="mx-2"> / </span>الاصدار رقــم :  <span>1.0.0</span></b></a>
+              </li>
+            </ul>
+             
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+</nav>
+<!-- End navbar -->
+
+
+<div class="container text-center">
+      <br><br>
+    <div class="row">
+      <div class="col-6">
+       
+
+        <div class="d-flex justify-content-center">
+          <div class="h-50 w-75 text-primary bg-light rounded-3 shadow py-4">
+              <h5 class=""> منصة مركز السجل الصحي الرقمي </h5>
+              <h3 class="display-5 fw-bold mb-3">ترحـب بكــم</h3>
+    
+    
+            <!-- Acordion  -->
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item w-75 mx-auto">
+                <h2 class="accordion-header">
+                 
+                  <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <b>  ما تقدمـه المنصــــة ..  </b>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                   <div class="accordion-body">
+                    <strong>  سجـل صحـي رقمـي  تاريخي للفرد به بياناته الشخصية و  
+                    الطبية الاولية "الاساسية" والمتقدمة ...</strong>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <!-- Acordion  -->
+      
+           
+          </div>
+       </div>
+      </div>
+
+
+      <div class="col-6 d-flex">
+              
+          <img style="width:200px;height:200px;" src="assets/imgs/bandle-best.jpg" class="z-3 position-absolute rounded-pill mx-auto shadow" alt="...">
+          <!-- <img style="width:200px;height:200px;" src="assets/imgs/bandle-best.jpg" class="z-2 position-absolute rounded-pill mx-auto shadow" alt="..."> -->
+
+          <img style="width:200px;height:200px;" src="assets/imgs/bandle-044.jpg" class="z-1 rounded-pill mx-auto shadow" alt="...">
+
+          <!-- <img style="width:200px;height:200px;" src="assets/imgs/bandle-best.jpg" class="z-n1 position-absolute rounded-pill mx-auto shadow" alt="..."> -->
+
+
+<br>
+
+  <!-- Start Jumbotron '1'-->
+
+</div>
+</div>
+
+
+  <!-- End Modal '1'-->
+
+  <br><br>
+  <!-- End Jumbotron '1'-->
+
+
+<!-- Grid test -->
+<section>
+
+  <div class="container text-center shadow py-4 text-primary rounded-3 bg-light">
+    <div class="row">
+       
+
+      <div class="col-6">
+        <h3 class="pb-3">توفر المنصـة  </h3>
+  
+     <h6 class="px-1 lh-base mx-5">
+            خدمة رقمية تعمل كمستوعب للبيانات الصحية 
+              ومن خلالها تتيح سجل صحي رقمي تاريخي للفرد والاسرة  ... 
+     </h6><br>
+    
+     
+  <button type="button" class="btn btn-primary shadow px-3 p-2 w-50" data-bs-toggle="modal" data-bs-target="#exampleModal_2">
+   <b>المزيــــد ... </b>
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel">  اطلع اكثر ...   </h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body mx-5">
+         <p><b>
+         - خدمة رقمية لتخزين البيانات الصحية، وباشتراككم فيها يمكنكم الحصول على حساب عن طريقه يتم اعداد ملف صحي رقمي تاريخي متكامل للفرد والاسرة 
+        </b></p>
+
+         <p><b>
+          يمكن الدخول لهذا الملف من خلال المنصة عبر اسم مستخدم وكلمة مرور والوصول للبيانات ..   
+        </b></p>
+
+           <p><b>
+            يمكن الوصول للبيانات في اي وقت خلال الــ 24 ساعة، ومن اي مكان في العالم،  ويمكن تعديل الملف من خلال الاضافة والتحديث ..    
+          </b></p>
+                
+            <p><b>
+              كما يمكن الوصول اليه والحصول على نسخة كاملة او ملخص منه في اي وقت ..
+            </b></p>
+
+              <p><b>
+               أداة هامة للطباء تساهم في اتخاذهم لقرارات طبية افضل، ويتميز بالسرعة والكفاءة في الاداء ..
+               </b></p>
+
+               <p><b>
+                  يتميز بدرجة عالية من الامان وحماية البيانات من السرقة والتلاعب والتخريب والتلف  
+               </b></p>
+  
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal"><b>Close</b></button>
+     
+         <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+       </div>
+     </div>
+   </div>
+ </div>
+  <!-- Test Modal -->
+   <!-- <button class="btn btn-primary btn-md shadow" type="button">اطلع اكثر على خدماتنا</button> -->
+ </div>
+                
+        <!-- <div class="col-1">
+             <div class="" style="border-left:1px solid #fff">| </div>
+        </div> -->
+
+      <div class="col-6">
+        <h3 class="my-3">المنصـة للجميع </h3>
+        <!-- <br> -->
+          <!-- <p class="mb-3"><b>   </b></p> -->
+          <p><b>  فكن من الاوائل المنضمين للمنصة وبادر باضافة افراد اسرتك .. </b></p>
+
+
+      <!-- test ..-->
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+      <li class="nav-item dropdown" style="display:flex; justify-content:center; ">
+        <a class="nav-link dropdown-toggle bg-primary text-light shadow rounded-3 w-50 my-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <b>انضــم الينــــا</b>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgb(187, 208, 236);">
+          <li><a class="dropdown-item" href="#"><b>اشتراك كمستخدم </b></a></li>
+          <li><a class="dropdown-item" href="#"><b>بروفايل المستخدم</b></a></li>
+          <li><a class="dropdown-item" href="#"><b>دخول كمستخدم </b></a></li>
+          <li><hr class="dropdown-divider mx-3"></li>
+          <li><a class="dropdown-item" href="#"><b> اشتراك كطبيب</b></a></li>
+          <li><a class="dropdown-item" href="#"><b>بروفايل الطبيب </b></a></li>
+          <li><a class="dropdown-item" href="#"><b>دخول كطبيب</b></a></li>
+          <li><hr class="dropdown-divider mx-3"></li>
+          <!-- <li><hr class="dropdown-divider"></li> -->
+          <!-- <li><a class="dropdown-item" href="#"><b>الســـلة</b></a></li>
+          <li><a class="dropdown-item" href="#"><b>طلباتي</b></a></li> -->
+          <li><a class="dropdown-item" href="#"><b>خــــروج </b></a></li>
+        </ul>
+      </li>
+    </ul>
+      <!-- Change Position -->
+
+<!-- <button type="button" class="btn btn-outline-primary shadow px-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<b>المزيد عن خدماتنا</b>
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">المزيد عن خدماتنا </h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>
+        .. خدمة رقمية لتخزين بياناتكم الصحية وتتيح لكم من خلاله سجل تاريخي صحي  ، وباشتراككم في خدماتها يمكنكم الحصول على ملف صحي رقمي متكامل لك ولكل فرد من اسرتك ..
+      </p>
+      <p>
+        .. خدمة رقمية لتخزين بياناتكم الصحية وتتيح لكم من خلاله سجل تاريخي صحي  ، وباشتراككم في خدماتها يمكنكم الحصول على ملف صحي رقمي متكامل لك ولكل فرد من اسرتك ..    
+        </p>
+        <p>
+          .. خدمة رقمية لتخزين بياناتكم الصحية وتتيح لكم من خلاله سجل تاريخي صحي  ، وباشتراككم في خدماتها يمكنكم الحصول على ملف صحي رقمي متكامل لك ولكل فرد من اسرتك ..     
+          </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    </div>
+  </div>
+</div>
+</div>
+        <!-- Test Modal -->
+        <p class="mb-3 mt-3"><b>نلتزم بالامان وحماية خصوصية وسرية بياناتك الصحية .. </b> </p>
+
+    
+      </div>
+
+    </div>
+  </div>
+ 
+
+</section>
+
+<br>
+<!-- <hr> -->
+<!-- Other Jumbotron Ex ..-->
+<!-- <section>
+  <div class="container py-4">
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Change the background</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-3 mt-4 text-muted border-top">
+      &copy; 2021
+    </footer>
+  </div>
+  </div>
+</section> -->
+
+
+<!-- test -msg-->
+<!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>تجربــة!</strong> يجب تجربة فتح واغلاق الرسالة click btn to close alert msg & Reload page to return alert msg.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div> -->
+<!-- test-msg -->
+
+<!-- <hr> -->
+<!-- Start Test Grid & CSS -->
+<!-- <h2>عرفان بالجميل</h2>
+<div class="container text-center my-4">
+  <div class="row">
+    <div class="col-3 d-flex justify-content-center mx-auto mt-2">
+        <div>
+          <img src="assets/imgs/bandle-033.jpg" class="rounded-pill shadow-lg" style="width:100px; height:100px; margin-left:55px" alt="">
+        </div>
+   
+        <div>
+          <img src="assets/imgs/bandle-022.jpg" class="rounded-pill shadow-lg" style="width:100px; height:100px; margin-left:55px" alt="">
+        </div>
+    
+        <div>
+          <img src="assets/imgs/bandle-011.jpg" class="rounded-pill shadow-lg" style="width:100px; height:100px; margin-left:55px" alt="">
+        </div>
+    
+      <div>
+        <img src="assets/imgs/bandle-000.jpg" class="rounded-pill shadow-lg" style="width:100px; height:100px; margin-left:55px" alt="">
+      </div>
+
+
+    </div>
+  </div>
+ <br><hr>
+</div> -->
+<!-- End Test Grid & CSS -->
+<!-- <hr> -->
+
+
+<hr>
+<!-- Start Test Grid & CSS -->
+ <h2 class="text-primary mb-3">عرفان بالجميل</h2>
+<div class="container text-center my-4">
+  <div class="row">
+    <div class="col-2">
+        <div>
+          <img src="assets/imgs/bandle-033.jpg" class="rounded-pill shadow-lg p-0" style="width:100px; height:100px;" alt="">
+        </div>
+    </div>
+    <div class="col-2">
+        <div>
+          <img src="assets/imgs/bandle-022.jpg" class="rounded-pill shadow-lg" style="width:120px; height:120px;" alt="">
+        </div>
+    </div>
+    <div class="col-2">
+        <div>
+          <img src="assets/imgs/bandle-011.jpg" class="rounded-pill shadow-lg" style="width:130px; height:130px;" alt="">
+        </div>
+    </div>
+    <div class="col-2">
+      <div>
+        <img src="assets/imgs/bandle-000.jpg" class="rounded-pill shadow-lg" style="width:130px; height:130px;" alt="">
+      </div>
+    </div>
+
+    <div class="col-2">
+      <div>
+        <img src="assets/imgs/bandle-000.jpg" class="rounded-pill shadow-lg" style="width:120px; height:120px;" alt="">
+      </div>
+    </div>
+
+    <div class="col-2">
+      <div>
+        <img src="assets/imgs/bandle-000.jpg" class="rounded-pill shadow-lg" style="width:100px; height:100px;" alt="">
+      </div>
+    </div>
+  </div>
+ 
+</div> 
+<!-- End Test Grid & CSS -->
+<hr>
+
+<!-- test -2-->
+<!-- <a href="#" class="link-primary">Primary link</a> -->
+<!-- test -->
+
+
+<!-- S icons Ex -->
+<div class="container text-center">
+  <i class="bi bi-bullseye text-primary fs-5 fw-2"><span class="mx-2">Target</span></i>
+  <i class="bi bi-cake2 text-primary fs-5 fw-2"><span class="mx-2">Cake</span></i>
+  <i class="bi bi-database text-primary fs-5 fw-2"><span class="mx-2">DB</span></i>
+  <i class="bi bi-heart-pulse text-primary fs-5 fw-2"><span class="mx-2">Heart Indicator</span></i>
+  <i class="bi bi-clipboard-pulse text-primary fs-5 fw-2"><span class="mx-2">Indicator</span></i>
+  <i class="bi bi-activity text-primary fs-5 fw-2"><span class="mx-2"> Indicator </span></i>
+
+  </div><br>
+  <!-- E icons Ex -->
+
+</div>
+
+
+<!-- Start Cards -->
+<div class="container text-center rounded-3 shadow p-5 text-dark bg-light">
+
+<div class="row row-cols-1 row-cols-md-3 g-4 text-primary">
+  <div class="col">
+    <div class="card h-100 border-0 shadow rounded-3">
+      <i class="bi bi-bullseye text-primary fs-1 fw-4 pt-4"></i>
+      <!-- <i class="bi bi-heart-pulse text-primary fs-1 fw-4 pt-4"></i> -->
+      <!-- <img src="assets/imgs/flower-1.jpeg" class="card-img-top" alt="flower"> -->
+      <div class="card-body">
+        <h5 class="card-title"><b>خصائص خدماتنــا</b> </h5>
+        <hr class="w-50 mx-auto my-3 mt-1">
+        <p class="card-text text-truncate">للخدمة الكثير من السمات التي تجعل منها </p>
+      </div>
+
+      <!-- Start Test btn-->
+      <button type="button" class="btn btn-outline-primary shadow w-50 shadow m-auto mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal_3">
+        <b>المزيد   ...</b>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal_3" tabindex="-1" aria-labelledby="exampleModalLabel_3" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel_3">   المزيد ..</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+              <p>
+                 فهي ... لهذه الخدمة الكثير من السمات
+              </p>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal"><b>Close</b></button>
+          
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Test btn-->
+
+      <div class="card-footer">
+        <!-- <small class="text-muted"><i class="bi bi-transparency"></i></small> -->
+        <i class="bi bi-transparency text-primary fw-4 pt-4"><span class="px-2">Transparency</span></i>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card h-100 border-0 shadow rounded-3">
+      <i class="bi bi-bullseye text-primary fs-1 fw-4 pt-4"></i>
+      <!-- <img src="assets/imgs/flower-3.jpeg" class="card-img-top" alt="flower"> -->
+      <div class="card-body">
+        <h5 class="card-title"><b>مميزات خدماتنــا </b></h5>
+        <hr class="w-50 mx-auto my-3 mt-1">
+        <p class="card-text text-truncate">للخدمـة الكثير من الميزات التي تميزها عن غيرها ..</p>
+      </div>
+      
+      <!-- Start Test btn '2'-->
+      <button type="button" class="btn btn-outline-primary shadow w-50 shadow m-auto mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal_4">
+        <b>المزيد   ...</b>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel_4" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel_4">  معلومات اكثر ..</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                 فلهذه الخدمة الكثير من الميزات او المزايا التي تجعل منها ..
+              </p>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal"><b>Close</b></button>
+          
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Test btn-->
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+        <i class="bi bi-transparency text-primary fw-4 pt-4"><span class="px-2">Transparency</span></i>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="col">
+    <div class="card h-100 border-0 shadow rounded-3">
+      <i class="bi bi-bullseye text-primary fs-1 fw-4 pt-4"></i>
+      <!-- <img src="assets/imgs/flower-3.jpeg" class="card-img-top" alt="flower"> -->
+      <div class="card-body">
+        <h5 class="card-title"><b>فوائد خدماتنـــا </b></h5>
+        <hr class="w-50 mx-auto my-3 mt-1">
+        <p class="card-text text-truncate">للخدمة الكثير من الفوائد التي تقدمها سواء للطبيب او للمشترك سليما او مريضا وكذلك للمجتمع .. </p>
+      </div>
+      
+      <!-- Start Test btn '2'-->
+      <button type="button" class="btn btn-outline-primary shadow w-50 shadow m-auto mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal_4">
+        <b>المزيد   ...</b>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel_4" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel_4">   اكثر ..</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                 فلهذه الخدمة الكثير من الميزات او المزايا التي تجعل منها ..
+              </p>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal"><b>Close</b></button>
+          
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Test btn-->
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+        <i class="bi bi-transparency text-primary fw-4 pt-4"><span class="px-2">Transparency</span></i>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+<!-- End Cards -->
+<br><br>
+
+
+<!-- Footer ....... -->
+ <!-- Social Media -->
+ <div class="container w-50">
+ <!-- <div class="row text-center bg-light p-2 rounded shadow"> -->
+    <div class="fs-3">
+      <i class="bi bi-whatsapp px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-facebook px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-github px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-google px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-linkedin px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-instagram px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-pinterest px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-telegram px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-snapchat px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-twitter-x px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-twitter px-2 pb-1 text-primary bg-light rounded shadow"></i>
+      <i class="bi bi-tiktok px-2 pb-1 text-primary bg-light rounded shadow"></i>
+    </div>
+  <!-- </div> -->
+</div>
+<br><br>
+
+ <!-- texts footer -->
+ <div class="container">
+  <div class="row text-center bg-light rounded shadow py-4 px-4">
+     <div class="col-3 fs-5 text-start">
+         <h5><b> خدماتنا متاحة </b></h5>
+         <hr class="w-75 mt-3 mb-1">
+         <!-- <a href="#" class="link-secondary"><small> للجميــــع </small> </a> -->
+        
+         
+        <!-- Collapse -->
+         <!-- <p>
+          <a class="link-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">
+            خدماتنا متاحة ..
+          </a>
+        </p> -->
+        <!-- <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+             للجميع .. فلا تقتصر على المرضى او كبار السن ، بل هي للاصحاء اصلا قبل المرض، فهي لصغار السن والكبار ، الذكور والاناث ، هي باختصار .. سجل تاريخي صحي  للفرد من بداية حياته .. ويتم تحديثه باستمرار وتظهر فيه التغيرات والتطورات الصحية، كما يمكن توظيفه في توقع بعض الامراض الوراثية،     
+          </div>
+        </div> -->
+        <!-- Collapse -->
+
+
+
+         <p class="fs-6 mb-1">للجميع اصحاء او مرضى</p>
+         <p class="fs-6 mb-1">   من أي مكان في العالم</p>
+         <p class="fs-6 mb-1">طول الوقت دون انقطاع </p>
+         <!-- <p class="fs-6"><b>بسـيط وسهل </b></p> -->
+     </div>
+
+     <div class="col-3 fs-5 text-start">    
+         <h5><b>  الدعــــــــم </b></h5>
+         <hr class="w-75 mt-3 mb-1">
+         <p class="fs-6 mb-1"> التوثيق</p>
+         <p class="fs-6 mb-1">التدريب</p>
+         <!-- <p class="fs-6"><b>المدونة</b></p> -->
+         <p class="fs-6 mb-1"> المقترحات</p>
+      </div>
+
+    <div class="col-3 fs-5 text-start">
+        <h5><b>روابط مهمـة </b></h5>
+        <hr class="w-75 mt-3 mb-1">
+        <!-- <p class="fs-6"><b>البداية </b> </p> -->
+        <p class="fs-6 mb-1">شروط الخدمة </p>
+        <p class="fs-6 mb-1"> سياسة الخصوصية </p>
+        <p class="fs-6 mb-1">الأسئلة المتكررة</p>
+    </div>
+
+    <div class="col-3 fs-5 text-start">
+        <h5><b>تواصل معنا </b></h5>
+        <hr class="w-75 mt-3 mb-1">     
+        <p class="fs-6 mb-1">طرابلس - ليبيا </p> 
+        <p class="fs-6 mb-1">www.mydhr.com</p> 
+        <p class="fs-6 mb-1">+218 091 222 3333 </p> 
+        <!-- <p class="fs-6"><b>+218 092 222 3333</b> </p>  -->
+    </div>
+
+  <div class="row bg-primary text-light text-center fs-6 fw-bold pb-3 mx-auto mt-4 pt-3 shadow rounded-3">
+     <div class="col text-center">www.mydhr.com  / Copyright <span>&copy; 2024</span></div>
+       <!-- <i class="bi bi-c-circle"></i> --> 
+      
+        <!-- <div class="col-6 rounded-top shadow">
+            <a href="#" class="text-light text-decoration-none"><span> الدعم الفني /</span> </a> 
+            <a href="#" class="text-light text-decoration-none"><span>سياسة الخصوصية / </span> </a> 
+            <a href="#" class="text-light text-decoration-none"><span>شروط الاستخدام / </span> </a> 
+            <a href="#" class="text-light text-decoration-none"><span>التراخيص</span> </a> 
+        </div> -->
+  </div>
+ </div>
+</div>
+</div>
+</div> 
+ <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- .................... JS .................... -->
+    <!-- BS JS -->
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+    <!-- JS -->
+     <!-- <script src="assets/"></script> -->
+
+     <!-- BS Arabic 'RTL' -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
